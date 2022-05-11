@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  overflow-x: scroll;
+  padding: 2vh 2vw;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.list_item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px solid var(--additional-back-color);
+  border-radius: 15px;
+  background-color: var(--main-front-color);
+  padding: 3vw;
+  margin-right: 2vw;
+  font-size: 3.200vw;
+  color: var(--main-text-color)
+}
+
+@import "categoryLine.media.module";

@@ -1,0 +1,60 @@
+.wrapper {
+ display: flex;
+ justify-content: space-between;
+ width: 90vw;
+ padding: 4vw;
+}
+
+.btn {
+ outline: none;
+ border: none;
+ background-color: #FFFFFF;
+}
+
+.burger {
+ height: 5.600vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: flex-end;
+ cursor: pointer;
+ &_item {
+  display: block;
+  width: 8vw;
+  height: 1vw;
+  background: var(--main-front-color);
+  user-select: none;
+  border-radius: 2vw;
+
+  &_long {
+    width: 9.600vw;
+   }
+ }
+
+ &_wrapper {
+  display: flex;
+ }
+}
+
+.input {
+  height: 3vw;
+  width: 36vw;
+
+ &_wrapper {
+  position: relative;
+  display: flex;
+ }
+}
+
+.question {
+ //position: absolute;
+ //top: 0;
+ //right: 3vw;
+ width: 5vw;
+ height: 3.8vw;
+ border: 1px solid var(--main-front-color);
+ text-align: center;
+ font-size: 2.800vw;
+}
+
+@import "categoriesSearch.media.module";

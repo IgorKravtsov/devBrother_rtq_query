@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  background-color: var(--main-front-color);
+
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+
+  &_wrapper {
+    width: 5vw;
+    height: 5vw;
+    margin-left: 2vw;
+
+  }
+}
+
+.title {
+  font-size: 8vw;
+  padding: 0;
+  margin: 0 0 0 2vw;
+  color: var(--main-text-color);
+}
+
+@import "header.media.module";

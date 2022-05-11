@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  padding: 4vw;
+  border: 1px solid var(--main-back-color);
+  //background-color: var(--main-back-color);
+  height: fit-content;
+  margin-top: 4vw;
+  border-radius: 30px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2vw;
+
+  &_wrapper {
+    width: 24vw;
+    height: 24vw;
+  }
+}
+
+.name {
+  font-size: 5vw;
+  //color: var(--main-text-color);
+}
+
+.category {
+  font-size: 3vw;
+  //background-color: var(--additional-back-color);
+  border: 1px solid var(--main-back-color);
+  margin: .4vw;
+  padding: .4vw;
+  border-radius: 2vw;
+  //color: var(--main-text-color);
+
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw;
+  }
+}
+
+@import "card.media.module";

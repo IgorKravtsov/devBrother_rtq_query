@@ -1,0 +1,12 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  min-height: 300vh;
+  background-color: var(--main-text-color);
+  overflow-y: scroll;
+}
+
+@import "filterSection.media.module";

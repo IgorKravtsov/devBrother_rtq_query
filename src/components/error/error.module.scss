@@ -1,0 +1,26 @@
+.error {
+  display: flex;
+  padding: 0 5px;
+  padding-right: 10px;
+  background: #DFB0B0;
+  /* Light pink for error DFB0B0/Light pink for error */
+  border: 0.3px solid #DFB0B0;
+  margin-bottom: 15px;
+
+  border-radius: 10px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 18px;
+  color: #E41313;
+  //visibility: hidden; //Change to see the error
+  opacity: 0; //Change to see the error
+  transform: scale(.9);
+  white-space: pre-line; //НУЖНО ДЛЯ ПЕРЕНОСА ОШИБКИ НА НОВУЮ СТРОКУ
+  transition: .4s all;
+   &_visible {
+     opacity: 1;
+     transform: scale(1);
+
+   }
+}

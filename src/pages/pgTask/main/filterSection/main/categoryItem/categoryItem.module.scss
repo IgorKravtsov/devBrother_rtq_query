@@ -1,0 +1,32 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 40vw 8vw 8vw 14vw;
+  grid-column-gap: 2vw;
+  padding-top: 2vw;
+
+  &_with_error {
+    grid-template-columns: 40vw 8vw 8vw;
+  }
+}
+
+.category {
+  font-size: 3.5vw;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  width: 100%;
+}
+
+.input {
+  width: 40vw;
+  font-size: 3.5vw;
+}
+
+.error {
+  margin-top: 1vw;
+  margin-bottom: 0;
+}

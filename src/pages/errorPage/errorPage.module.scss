@@ -1,0 +1,22 @@
+.wrapper {
+  position: relative;
+  min-height: calc(100vh - 50px);
+  background-color: var(--main-back-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 88px;
+  color: var(--main-text-color);
+}
+
+.link {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  color: var(--main-text-color);
+  text-decoration: underline;
+  cursor: pointer;
+}

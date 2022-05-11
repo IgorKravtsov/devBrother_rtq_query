@@ -1,0 +1,1 @@
+export const checkTheSameValue = (value: string, validValue: string | number):boolean =>  value === validValue;
